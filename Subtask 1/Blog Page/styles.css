@@ -1,0 +1,148 @@
+.header{
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    color: whitesmoke;
+}
+
+.header>p{
+    padding-right: 20px;
+}
+
+.intro{
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+}
+.intro>p, .intro>h1{
+    padding: 10px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 35vw;
+}
+
+.abtContent{
+    font-size: 1rem;
+    font-weight: 350;
+}
+
+.abtHeading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-learn{
+    background-color: #e0e1e2;
+    color: #5a5a5a;
+    font-weight: 600;
+}
+
+.btn-video{
+    background-color: #db2828;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-book{
+    background-color: #f2711c;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.quote{
+    color: #f1f1f1;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.horizontal-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.horizontal-line::before,
+.horizontal-line::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #dddede;
+    margin: 0 10px;
+    color: #333;
+}
+
+.horizontal-line span {
+    z-index: 1;
+    background-color: #ffffff;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.card-title{
+    margin-bottom: 0;
+}
+
+.awards{
+    margin: 0;
+    padding-top: 0;
+}
+
+.year{
+    color: #999999;
+    margin-bottom: 6px;
+}
+
+.crdContent{
+    font-weight: 350;
+}
+
+.cardbox{
+    padding-bottom: 15px;
+}
+
+.listItems{
+    font-size: 15px;
+}
+
+.footer{
+    color: #f1f1f1;
+    font-size: 1rem;
+}
+
+.black{
+    color: #5a5a5a;
+}
+
+.blue{
+    color: #2057ba;
+}
+
+.vr{
+    border: 1px solid #545758;
+    height: 10rem
+}
+
+@media screen and (max-width: 800px) {
+    .quote{
+        font-size: 1rem;
+    }
+
+    .footer{
+        font-size: 0.5rem;
+    }
+}
